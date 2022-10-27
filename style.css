@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    position: absolute;
+    background-image: url(./img/back3.jpg);
+    background-size: cover;
+}
+.head{
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    position: absolute;
+    margin-left: 550px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.in{
+    filter: drop-shadow(0px 3px 3px black);
+    
+   
+    position: absolute;
+    z-index: 1;
+}
+
+.inner-head{
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    clip-path: polygon(50% 0%, 72% 6%, 93% 45%, 81% 63%, 18% 64%, 8% 44%, 29% 6%);
+    margin-left: 2;
+    margin-top: 50px;
+    /* box-shadow: 10px 3px 37px -11px rgba(0,0,0,0.75); */
+    filter: drop-shadow(8px 8px 4px black);
+
+}
+.left-hair{
+    height: 600px;
+    width: 400px;
+    background-color: brown;
+    clip-path: polygon(29.75% 25%, 50.28% 25%, 50.28% 25%, 49.42% 45.98%, 49.01% 55.87%, 49.47% 61.35%, 49.47% 61.35%, 39.86% 69.05%, 36.86% 75%, 34% 80.7%, 30.33% 84.23%, 23.02% 86.75%, 27.84% 80.7%, 27.84% 75%, 27.84% 71.53%, 23.83% 66.97%, 24.4% 60.92%, 25% 56.88%, 29.75% 52.5%, 25% 38.75%);
+    margin-left: 455px;
+    margin-top: 160px;
+}
+.right-hair{
+    height: 600px;
+    width: 400px;
+    transform: scaleX(-1);
+    background-color: brown;
+    clip-path: polygon(29.75% 25%, 50.28% 25%, 50.28% 25%, 49.42% 45.98%, 49.01% 55.87%, 49.47% 61.35%, 49.47% 61.35%, 39.86% 69.05%, 36.86% 75%, 34% 80.7%, 30.33% 84.23%, 23.02% 86.75%, 27.84% 80.7%, 27.84% 75%, 27.84% 71.53%, 23.83% 66.97%, 24.4% 60.92%, 25% 56.88%, 29.75% 52.5%, 25% 38.75%);
+    margin-top: -600px;
+    margin-left: 645px;
+}
+.face-left{
+    height: 600px;
+    width: 600px;
+    background-color: #deaa88;
+    margin-top: -620px;
+    margin-left: 450px;
+    z-index: 1;
+    clip-path: polygon(30.5% 25%, 50.25% 25%, 50.25% 71.59%, 41.44% 75%, 34.63% 71.59%, 25% 59.68%, 28.33% 44.73%, 25% 37.05%);
+
+}
+.face-right{
+    height: 600px;
+    width: 600px;
+    background-color: #deaa88;
+    margin-top: -600px;
+    margin-left: 450px;
+    z-index: 1;
+    clip-path: polygon(30.5% 25%, 50.25% 25%, 50.25% 71.59%, 41.44% 75%, 34.63% 71.59%, 25% 59.68%, 28.33% 44.73%, 25% 37.05%);
+    transform: scaleX(-1);
+
+}
+.gold-strip{
+    height: 300px;
+    width: 500px;
+    background-color: gold;
+    clip-path: polygon(25% 25%, 84.25% 25%, 80% 33.5%, 30% 33.5%);
+    margin-top: -530px;
+    margin-left: 478px;
+
+}
+.traingle{
+    clip-path: polygon(50% 0%, 79% 50%, 50% 100%, 21% 49%);
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    margin-top: -260px;
+    margin-left: 690px;
+}
+.redstone{
+    height: 15px;
+    width: 15px;
+    margin-top: -60px;
+    margin-left: 600px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-t{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 620px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-a{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 640px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-b{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 660px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-c{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 680px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-d{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 780px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-e{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 800px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-f{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 820px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-g{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 840px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-h{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 860px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.redstone-i{
+    height: 15px;
+    width: 15px;
+    margin-top: -15px;
+    margin-left: 880px;
+
+    background-color: red;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.green{
+    filter: drop-shadow(0px 3px 3px black);
+}
+.green-dim{
+    height: 50px;
+    width: 50px;
+    clip-path: polygon(50% 0%, 76% 49%, 50% 100%, 23% 48%);
+    background-color:  #00FF00;
+    margin-left: 715px;
+    margin-top: -28px;
+}
+.much{
+    position: absolute;
+    height: 100px;
+    margin-left: 505px;
+    z-index: 1;
+    margin-left: 638px;
+    margin-top: 120px;
+}
+.left-ear{
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(47% 30.74%, 59.25% 8%, 75% 25%, 74.99% 74.98%, 68.2% 72.77%, 61.4% 74.98%, 59.25% 68.37%, 59.25% 53.47%);
+    background-color: #deaa88;
+    margin-left: 498px;
+    margin-top: 20px;
+}
+.right-ear{
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(47% 30.74%, 59.25% 8%, 75% 25%, 74.99% 74.98%, 68.2% 72.77%, 61.4% 74.98%, 59.25% 68.37%, 59.25% 53.47%);
+    background-color: #deaa88;
+    margin-left: 852px;
+    margin-top: -150px;
+    transform: scaleX(-1);
+}
+.left-earring{
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-left: 588px;
+    margin-top: -60px;
+    z-index: 1;
+    position: absolute;
+}
+.right-earring{
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-left: 892px;
+    margin-top: -60px;
+    z-index: 1;
+    position: absolute;
+}
+.t-o{
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    clip-path: polygon(16.05% 45.25%, 83.5% 45.25%, 91.72% 50%, 83.5% 54.75%, 16.05% 54.75%, 7.83% 50%);
+    margin-left: 645px;
+    margin-top: -230px;
+
+}
+
+.t-s{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    clip-path: polygon(16.05% 45.25%, 83.5% 45.25%, 91.72% 50%, 83.5% 54.75%, 16.05% 54.75%, 7.83% 50%);
+    margin-left: 670px;
+    margin-top: -110px;
+}
+.lb{
+    height: 100px;
+    margin-left: 630px;
+    margin-top: -70px;
+    position: absolute;
+    z-index: 1;
+}
+.rb{
+    height: 100px;
+    margin-left: 760px;
+    margin-top: -70px;
+    position: absolute;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+.left-eye{
+    height: 80px;
+    margin-left: 630px;
+    margin-top: -43px;
+    position: absolute;
+    z-index: 1;
+}
+.right-eye{
+    height: 80px;
+    margin-left: 775px;
+    margin-top: -43px;
+    position: absolute;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+.nose{
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(42.75% 31.25%, 50.79% 31.25%, 55.44% 53.13%, 62.57% 59.17%, 62.57% 68.01%, 54.78% 72.19%, 47.82% 76.85%, 48.01% 76.51%, 40.27% 72.19%, 31.42% 66.72%, 31.42% 59.17%, 37.9% 53.13%);
+    background-color: #deaa88;
+ 
+margin-left: 655px;
+margin-top: -80px;
+position: absolute;
+    z-index: 1;
+}
+.nose-div{
+    /* border: 10px solid black; */
+    filter: drop-shadow(0px 3px 3px black);
+    position: absolute;
+    z-index: 1;
+}
+.happy{
+    height: 400px;
+    margin-top: -250px;
+    margin-left: 50px;
+}
